@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tavola</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-------------------------------------------------------------------HEADER---------------------------------------------------------------->
+    <div class="header">
+        <div class="heading">
+            <img class="image1" src="image/logo-light.svg">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="menu-open">☰</span>
+                <span class="menu-close">✕</span>
+            </label>
+            <nav class="nav-link">
+                <a class="link" href="#homepage">Home</a>
+                <a class="link" href="#menu">Menu</a>
+                <a class="link" href="#OurStory">About</a>
+                <a class="link" href="#gallery">Gallery</a>
+                <a class="link" href="#footer-container">Contact</a>
+            </nav>
+            <button class="btn remove reserveBtn">Reserve a Table</button>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------HOME------------------------------------------------------------------>
+    <div class="homepage" id="homepage">
+        <div class="home-content">
+            <p class="para1">Welcome to La Tavola</p>
+            <h1>Authentic Italian Cuisine</h1>
+            <p class="para2">Experience the finest Italian traditions, crafted with love and served with passion since
+                1985.</p>
+            <div class="buttons">
+                <button class="btn btnn reserveBtn">Reserve a Table</button>
+                <button class="btn btnn btnnn" id="viewourmenu">View Our Menu</button>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------OUR STORY------------------------------------------------------------->
+    <div class="OurStory" id="OurStory">
+        <div class="ourstoryinside">
+            <div class="Story-left">
+                <img src="image/ourstory.jpg">
+            </div>
+            <div class="story-right">
+                <p class="para3">Our Story</p>
+                <h1 class="storyh1">A Family Tradition of Excellence</h1>
+                <p class="para4">For nearly four decades, La Tavola has been bringing the authentic flavors of Italy to
+                    our community. Every dish tells a story of tradition, passion, and the finest ingredients sourced
+                    from local farms and Italian importers.</p>
+                <p class="para5">Founded by the Rossi family in 1985, our restaurant continues to honor the recipes
+                    passed down through generations while embracing modern culinary techniques.</p>
+                <hr>
+                <div class="foot">
+                    <div class="one">
+                        <p class="one1">40+</p>
+                        <p class="one2">Years of Excellence</p>
+                    </div>
+
+                    <div class="two">
+                        <p class="two1">50K+</p>
+                        <p class="two2">Happy Guests</p>
+                    </div>
+
+                    <div class="three">
+                        <p class="three1">4.9</p>
+                        <p class="three2">Star Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------MENU------------------------------------------------------------------>
+    <div class="menu" id="menu">
+        <div class="menu-head" id="menu-head">
+            <p class="para3">Our Menu</p>
+            <h1 class="storyh1">Chef's Selections</h1>
+            <p class="para4 par">Discover our most beloved dishes, crafted with the finest ingredients and time-honored
+                recipes.</p>
+        </div>
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+        <div class=menu-cards>
+
+            <div class="menu-card">
+                <div class="card-image">
+                    <img src="image/burrata.jpg" alt="image">
+                    <span class="chefs-pick">Chef's Pick</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Burrata</h3>
+                        <span class="price">$18</span>
+                    </div>
+                    <p>Creamy burrata with prosciutto di Parma,arugula, and aged balsamic</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="card-image">
+                    <img src="image/spaghetti.jpg" alt="image">
+                    <span class="chefs-pick">Chef's Pick</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Spaghetti alla Carbonara</h3>
+                        <span class="price">$24</span>
+                    </div>
+                    <p>Classic Roman pasta with guanciale, egg yolk, Pecorino Romano, and black pepper</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="card-image">
+                    <img src="image/OIP.webp" alt="image">
+                    <span class="chefs-pick">Chef's Pick</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Branzino al Forno</h3>
+                        <span class="price">$38</span>
+                    </div>
+                    <p>Whole roasted Mediterranean sea bass with herbs, lemon, and olive oil</p>
+                    <span class="food-tag">gluten-free</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="card-image">
+                    <img src="image/download.webp" alt="image">
+                    <span class="chefs-pick">Chef's Pick</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">
+                        <h3>Tiramisu</h3>
+                        <span class="price">$12</span>
+                    </div>
+                    <p>Classic layered dessert with espresso-soaked ladyfingers and mascarpone cream</p>
+                </div>
+            </div>
+        </div>
+        <div class="Viewl">
+            <p class="Viewt">View Full Menu &#8594;</p>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------Reviews -------------------------------------------------------------->
+    <div class="Reviews" id="Reviews">
+
+        <div class="rev-top">
+            <p>What Our Guests Say</p>
+            <h2>Reviews & Testimonials</h2>
+        </div>
+
+        <div class="rev-cards">
+
+            <div class="rev-card">
+                <div class="rev-card1">
+
+                    <div class="review-head">
+                        <span class="span1">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                        <span class="quote">$</span>
+                    </div>
+
+                    <p class="rev-para">
+                        "The best Italian food I've had outside of Italy.
+                        The carbonara is absolutely authentic and the service is impeccable.
+                        "</p>
+
+                    <div class="foot">
+
+                        <div class="profile">S
+                        </div>
+
+                        <div class="user-info">
+                            <span class="span2">Sarah M.</span>
+                            <span class="span3">Yelp.January 2025</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="rev-card">
+                <div class="rev-card1">
+
+                    <div class="review-head">
+                        <span class="span1">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                        <span class="quote">$</span>
+                    </div>
+
+                    <p class="rev-para">
+                        "We celebrated our anniversary here and it was perfect. The ambiance, the food, the wine
+                        selection - everything exceeded our expectations."
+                    </p>
+
+                    <div class="foot">
+                        <div class="profile">
+                            M
+                        </div>
+
+                        <div class="user-info">
+                            <span class="span2">Michael R.</span>
+                            <span class="span3">Google • December 2024</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="rev-card">
+                <div class="rev-card1">
+
+                    <div class="review-head">
+                        <span class="span1">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                        <span class="quote">$</span>
+                    </div>
+
+                    <p class="rev-para">
+                        "La Tavola has become our go-to spot for special occasions. The burrata appetizer is a must-try,
+                        and the tiramisu is heavenly."
+                    </p>
+
+                    <div class="foot">
+                        <div class="profile">
+                            J
+                        </div>
+
+                        <div class="user-info">
+                            <span class="span2">Jennifer L.</span>
+                            <span class="span3">TripAdvisor • November 2024</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------Contact Form---------------------------------------------------------->
+    <div class="form" id="form">
+        <div class="form-in">
+            <div class="form-inn">
+                <p class="colorp">Book a Table</p>
+                <h2>Make a Reservation</h2>
+                <p class="colorpara">Join us for an unforgettable dining experience. Reserve your table today and let us
+                    take care of the rest.</p>
+                <small>Or call us directly</small>
+                <div class="call">&#128222; <p>(555) 123-4567</p>
+                </div>
+            </div>
+
+            <div class="reservation-container">
+
+                <form class="reservation-form">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time">
+                            <option value="">Select time</option>
+                            <option>12:00 PM</option>
+                            <option>1:00 PM</option>
+                            <option>2:00 PM</option>
+                            <option>7:00 PM</option>
+                            <option>8:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests">
+                            <option value="">Select guests</option>
+                            <option>1 Guest</option>
+                            <option>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4 Guests</option>
+                            <option>5+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="(555) 123-4567">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests"
+                            placeholder="Dietary restrictions, celebrations, seating preferences..."></textarea>
+                    </div>
+                    <button type="submit" class="reservation-btn">
+                        Request Reservation
+                    </button>
+
+                    <p class="confirmation-text">
+                        We'll confirm your reservation via email within 2 hours.
+                    </p>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <!---------------------------------------------------------------Gallery--------------------------------------------------------------->
+    <div class="gallery" id="gallery">
+        <div class="gallery-in">
+            <div class="gallery-inn rev-top">
+                <p>Gallery</p>
+                <h2>A Glimpse of La Tavola</h2>
+
+            </div>
+
+            <div class="gal-cards">
+                <div class="gal-card">
+                    <span>⌕</span>
+                    <img src="image/plate1.jpg" alt="image">
+                    <div class="gal-text">
+                        <p>Elegant dining room</p>
+                        <p>Interior</p>
+                    </div>
+                </div>
+
+                <div class="gal-card">
+                    <span>⌕</span>
+                    <img src="image/pasta.jpg">
+                    <div class="gal-text">
+                        <p>Fresh Pasta Dish</p>
+                        <p>Food</p>
+                    </div>
+                </div>
+
+                <div class="gal-card">
+                    <span>⌕</span>
+                    <img src="image/wine selection.jpg">
+                    <div class="gal-text">
+                        <p>Italian Wine Selection</p>
+                        <p>Drinks</p>
+                    </div>
+                </div>
+
+                <div class="gal-card">
+                    <span>⌕</span>
+                    <img src="image/interiror.jpg">
+                    <div class="gal-text">
+                        <p>Restaurant interiror</p>
+                        <p>Interior</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!---------------------------------------------------------------Footer---------------------------------------------------------------->
+    <!-- <footer class="footer"> -->
+    <div class="footer-container" id="footer-container">
+
+
+        <div class="footer-col">
+            <div class="brand-logo-wrapper">
+                <!-- <span class="logo-line"></span>
+                    <i class="fa-solid fa-utensils fork-icon"></i>
+                    <h2 class="brand-title">La Tavola</h2>
+                    <span class="logo-line"></span> -->
+                <img src="image/logo-light.svg" width="200px">
+            </div>
+            <p class="tagline">Authentic Italian Cuisine</p>
+
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:5551234567">(555) 123-4567</a>
+                </li>
+                <li class="contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:reservations@latavola.com">reservations@latavola.com</a>
+                </li>
+                <li class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>123 Main Street<br>San Francisco, CA 94102</span>
+                </li>
+            </ul>
+
+            <div class="social-links">
+                <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-btn" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3 class="footer-title">QUICK LINKS</h3>
+            <ul class="links-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3 class="footer-title">HOURS</h3>
+            <div class="hours-grid">
+                <span class="day-name">Monday</span>
+                <span class="time-range closed">Closed</span>
+
+                <span class="day-name">Tuesday</span>
+                <span class="time-range">5:00 PM - 10:00 PM</span>
+
+                <span class="day-name">Wednesday</span>
+                <span class="time-range">5:00 PM - 10:00 PM</span>
+
+                <span class="day-name">Thursday</span>
+                <span class="time-range">5:00 PM - 10:00 PM</span>
+
+                <span class="day-name">Friday</span>
+                <span class="time-range">5:00 PM - 11:00 PM</span>
+
+                <span class="day-name">Saturday</span>
+                <span class="time-range">12:00 PM - 11:00 PM</span>
+
+                <span class="day-name">Sunday</span>
+                <span class="time-range">12:00 PM - 9:00 PM</span>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3 class="footer-title">NEWSLETTER</h3>
+            <p class="newsletter-desc">Subscribe for special offers and seasonal menu updates.</p>
+            <form class="newsletter-form" id="newsletterForm" onsubmit="handleSubscribe(event)">
+                <input type="email" class="email-input" placeholder="Your email" required
+                    aria-label="Your email address">
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+            <!-- <div class="notification" id="statusMsg">Thank you for subscribing!</div> -->
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="footer-last">
+        <p>© 2026 La Tavola. All rights reserved.</p>
+        <div class="end">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
