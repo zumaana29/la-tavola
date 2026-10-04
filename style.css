@@ -1511,6 +1511,9 @@ hr {
         flex-direction: column;
         gap: 10px;
     }
+   .bn {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:321px) {
